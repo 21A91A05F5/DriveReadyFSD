@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: aqua; */
+    height: 100vh;
+    width: 100vw;
+    font-family: 'poppins';
+}
+.main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.navbar{
+    height: 25%;
+    width: 100%;
+    /* background-color:white; */
+    display: flex;
+}
+.mid{
+    height: 75%;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+}
+.bottom{
+    height: 60%;
+    width: 100%;
+    background-color: orange;
+    padding-left: 10px;
+    padding-top: 3px;
+    float: left;
+    color: white;
+}
+.image1{
+    height: 75px;
+    width: 80px;
+    border-radius: 10px;
+}
+.logo{
+    height: 100%;
+    width: 20%;
+    background-color:black;
+    text-align: center;
+}
+.labels{
+    height: 100%;
+    width: 80%;
+    background-color:black;
+    text-align:center;
+    word-spacing: 100px;
+    font-size: 30px;
+}
+.labels a {
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 3px;
+    height: 40px;
+    color: white;
+  }
+.labels a:hover{
+    /* background-color: orange; */
+    color: white;
+    cursor: pointer;
+    background-color: rgb(227, 128, 15);
+    
+}
+.map{
+    height: 300px;
+    width: 300px;
+    border-radius: 6px;
+}
+.formdata{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+table{
+    border-collapse: collapse;
+    /* background-color: aqua; */
+    text-align: left;
+    /* margin-left: 2px; */
+}
+td{
+    /* background-color: bisque; */
+    height: 50px;
+    width: 200px;
+}
+th,td{
+    border-style: none;
+}
+.submit{
+    height: 30px;
+    width: 70px;
+    color:white;
+    background-color: rgb(59, 16, 227);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'poppins';
+    border: none;
+}
+.reset{
+    height: 30px;
+    width: 70px;
+    color:white;
+    background-color: rgb(239, 24, 5);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'poppins';
+    border: none;
+}
+@media only screen and (max-width:700px){
+    [class*="col-1"]{
+    width:100%;
+    height: auto;
+    display:flex;
+    flex-direction:column;
+    }
+    [class*="col"]{
+        width:100%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    [class*="col-2"]{
+        height: 50%;
+        width: 50%;
+    }
+    .navbar .labels {
+        display: flex;
+        flex-direction: column;
+    }
+}

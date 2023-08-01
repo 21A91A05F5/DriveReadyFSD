@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 98vw;
+    background-color: white;
+    /* padding: 30px; */
+    padding: 20px 60px 20px 60px;
+}
+.main{
+    height: auto;
+    width: 100%;
+    background-color:rgb(223, 221, 221);
+    padding: 20px 60px 0px 60px;
+    /* padding: 40px 100px 40px 100px; */
+}
+.mid{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    /* padding: 20px 10px 10px 10px; */
+}
+.image{
+    height: 80px;
+    width: 120px;
+}
+.epam{
+    height: 40%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding-left: 5px;
+}
+.menu{
+    padding: 20px 0 20px 5px;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    text-align: center;
+}
+.menu a{
+    color: rgb(13, 96, 240);
+}
+#headers{
+    height: 100%;
+    width: 100%;
+    padding: 15px 10px 10px 10px;
+    /* line-height: 40px; */
+}
+.para{
+    height: 50%;
+    width: 100%;
+    padding: 20px 15px 20px 15px;
+    text-align: justify;
+}
+#table{
+    height: 30%;
+    width: 70%;
+    padding:20px;
+}
+table{
+    height: 150px;
+    width: 400px;
+    border-collapse: collapse;
+    border: none;
+}
+td{
+    padding: 6px;
+}
+#lists{
+    height: auto;
+    width: 100%;
+    padding-left: 30px;
+}
+ul , ol{
+    padding-left: 15px;
+}
+dd , .definition{
+    padding-bottom: 10px;
+}
+#formats{
+    height: 40%;
+    width: 100%;
+    padding: 20px 0 10px 20px;
+}
+article{
+    padding-bottom: 20px;
+}
+.preformatted{
+    height: 40%;
+    width: 100%;
+    padding: 10px;
+}
+.center , .code{
+    height: 30%;
+    width: 100%;
+    background-color: #ede9e9;
+}
+#bquotes{
+    height: 40%;
+    width: 100%;
+    padding: 10px;
+}
+.quotes{
+    height: 30%;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    text-align: justify;
+}
+.form{
+    text-align: right;
+    padding: 20px;
+}
+.btn{
+    height: 30px;
+    width: 150px;
+    text-align: center;
+}
+.bottom{
+    height: 200px;
+    width: 100%;
+    padding: 50px;
+}
+.down{
+    background-color: rgb(224, 221, 221);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}

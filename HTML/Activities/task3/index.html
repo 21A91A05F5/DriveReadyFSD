@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="mid">
+            <div class="epam">
+                <center><img src="epam.jpg" alt="" class="image"></center>
+            <br>
+            <h2>HTML Elements</h2>
+            </div>
+            <hr>
+            <div class="menu">
+                <a href="">Home</a>
+                <a href="#headers">Headers</a>
+                <a href="#table">Table</a>
+                <a href="#lists">List</a>
+                <a href="#formats">Text Formats</a>
+                <a href="#bquotes">Blockquotes</a>
+            </div>
+            <hr>
+            <div id="headers">
+                <p>Pay attention to h1 tag inside section element.Font-size for h1 is the same as 
+                font-size for h2,because we have to use only one h1 on the page,and it is commonly 
+                used inside header</p>
+                <br><br>
+                <h2>Header2</h2><br>
+                <h3>Header3</h3><br>
+                <h4>Header4</h4><br>
+                <h5>Header5</h5><br>
+                <h6>Header6</h6><br>
+            </div>
+            <hr>
+            <div class="para">
+                <p>Lorem ipsum dolor sit amet,<a href="">test link</a> adipiscing elit. 
+                    <strong>This is strong </strong>Nullam dignissim convallis est.Quisque aliquam.
+                    <em>This is emphasized</em>Donec faucibus.Nune iaculis suscipit diu.5 <sup>3</sup>
+                    =125.Water is H <sub>2</sub>O. Nan sit amet sem.Aliquam libero nisi,imperdiet at,
+                    tincidunt nec,gravida vehicula,nisl.<i>The New York Times</i>(That's a citation).
+                    <u>Underline</u>.Maeceans ornare tortor.Donec sed tellus eget sapien fringilla nonummy.
+                    Mauris a ante.Suspendisse quam sem,consequat at,commodo vitae, feugiat in,nunc.Morbi 
+                    imperdiet augue <big>quis tellus.</big>
+                </p><br><br>
+                <p>HTML and CSS are our tools.Mauris a ante.Suspendisse quam sem,consequat at,commodo at,
+                    commodo vitae,feugiat in,nunc.Morbi imperdit augue quis tellus .Praesent mattis,massa
+                    quis luctus fermentum,turpis mi volutpat justo,eu volutpat enim diam eget metus.To copy
+                    a file typy COPY filename.<delete>Dinner's at 5:00</delete>.<mark>Let's make that 7.</mark>
+                    This text has been stuck. </p>
+            </div>
+            <hr>
+            <div id="table">
+                <h2>Table</h2>
+                <br>
+                <table border="6px">
+                    <thead>
+                        <tr>
+                            <th>Header</th>
+                            <th>Header</th>
+                            <th>Header</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lviv</td>
+                            <td>Kyiv</td>
+                            <td>Kharkiv</td>
+                        </tr>
+                        <tr>
+                            <td>Odessa</td>
+                            <td>Zhytomyr</td>
+                            <td>Dnipro</td>
+                        </tr>
+                        <tr>
+                            <td>Sumy</td>
+                            <td>Chernivtsi</td>
+                            <td>Lutsk</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="lists">
+                <div class="unordered">
+                    <h2>Unordered List</h2>
+                    <br>
+                    <ul type="square">
+                        <li>List item 1</li>
+                        <li>List item 2
+                            <ul type="square">
+                                <li>Some nested list item 1</li>
+                            </ul>
+                        </li>
+                        <li>List item 3</li>
+                    </u>
+                </div>
+                <br>
+                <div class="ordered">
+                    <h2>Ordered List</h2>
+                    <br>
+                    <ol type="1">
+                        <li>List item 1</li>
+                        <li>List item 2</li>
+                            <ol type="1">
+                                <li>Some nested list item 1</li>
+                            </ol>
+                        </li>
+                        <li>List item 3</li>
+                    </ol>
+                </div>
+                <br>
+                <div class="definition">
+                    <h2>Defintion List</h2>
+                    <br>
+                    <dl>
+                        <dt><b>defines term 1</b></dt>
+                        <dd>description 1</dd>
+                        <dt><b>defines term 2</b></dt>
+                        <dd>description 2</dd>
+                    </dl>
+                    Details : 
+                    <select>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>JavaScript</option>
+                    </select>
+                </div>
+            </div>
+            <hr>
+            <div id="formats">
+                <article>
+                    <h2>Text Formats</h2>
+                </article>
+                <article>
+                    <h3>Article Text</h3>
+                </article>
+                <article>
+                    <h4>Article title</h4>
+                </article>
+                <article>
+                    <h5>Article description</h5>
+                </article>
+            </div>
+            <div class="preformatted">
+                <h2>Preformatted</h2><br>
+                <div class="center">
+                    <br>
+                    <pre>
+                                        Text
+                            in a pre element
+                                is displayed in a fixed-width 
+                        font, and it preserves
+                        both
+                          spaces and 
+                            line breaks                          
+                    </pre>
+                    <br>
+                </div>
+                <br>
+                <h2>Code</h2><br>
+            </div>
+            <div class="code">
+                <br>
+                <pre>
+                <code>
+                        .wrapper {
+                        display:flex;
+                        vertical-align:middle;
+                        justify-content:center;
+                        }                        
+                </code>
+                </pre>
+                <br>
+            </div>
+            <br>
+            <div id="bquotes">
+                <h2>Blockquotes</h2>
+                <br>
+                <p>Let's keep it simple.Italics are good to help set it off from the body text.
+                        Be sure to style the citation.
+                </p>
+                <div class="quotes">
+                        <blockquote><cite>"If you go back a  few hundred years,what we take for granted
+                        today would seem like magic-being able to talk to people over long distances,
+                        to transmit images,flying,accessing  vast amounts of data like an oracle.
+                        These are all things that would have been considered magic  a few hundred years
+                        ago."
+                        </cite></blockquote>
+                        <a href="">Elon Musk</a>
+                </div>
+            </div>
+            <hr>
+            <div class="form">
+                <form action="">
+                First name : <input type="text"><br><br>
+                Surname : <input type="text"><br><br>
+                Email : <input type="email"><br><br>
+                        <textarea name="" id="" cols="20" rows="15"></textarea><br><br>
+                        <input type="submit" class="btn">
+                </form>
+            </div>
+            <div class="bottom">
+                <div class="down">
+                    <p>Copyright Epam Systems</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'poppins';
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+}
+/* .top{
+    height: 12%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+}
+.mid{
+    height: 73%;
+    width: 100%;
+    /* background-color: aliceblue; 
+    display: flex;
+}
+.bottom{
+    height: 50%;
+    width: 100%;
+    background-color: orange;
+    padding-left: 125px;
+    padding-top: 3px;
+    float: left;
+    color: white;
+}
+.left{
+    height: 100%;
+    width: 20%;
+    background-color:white;
+    text-align: center;
+}
+.right{
+    height: 100%;
+    width: 80%;
+    background-color:black;
+    text-align:center;
+    word-spacing: 100px;
+    font-size: 30px;
+}
+.photo{
+    background-color: aliceblue;
+    height: 100%;
+    width: 50%;
+}
+.data{
+    background-color: blanchedalmond;
+    height: 100%;
+    width: 50%;
+}
+@media only screen and (max-width:700px){
+    [class*="col-1"] {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      [class*="col"]{
+        width: 100%;
+      }
+} */
+.top{ 
+    position:absolute; 
+    height: 400px;
+    width: 400px;
+    /* top:0;  */
+    /* left:0; */
+    background-color: beige;
+ }
+.top { 
+    z-index:9; 
+} 
+.bottom { 
+    z-index:8;
+    background-color: blue;
+    height: 600px;
+    width: 600px;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+ }

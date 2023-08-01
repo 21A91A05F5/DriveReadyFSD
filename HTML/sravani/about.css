@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: aqua; */
+    height: 100vh;
+    width: 100vw;
+    font-family: 'poppins';
+}
+.main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    /* margin-top: 150px; */
+}
+.navbar{
+    height: 25%;
+    width: 100%;
+    /* background-color:white; */
+    display: flex;
+    /* position: fixed; */
+    /* top: 0; */
+}
+.mid{
+    height: 75%;
+    width: 100%;
+    /* background-color: aliceblue; */
+    /* display: flex; */
+}
+.bottom{
+    height: 60%;
+    width: 100%;
+    background-color: orange;
+    padding-left: 10px;
+    padding-top: 3px;
+    float: left;
+    color: white;
+}
+.image1{
+    height: 75px;
+    width: 80px;
+    border-radius: 10px;
+}
+.logo{
+    height: 100%;
+    width: 20%;
+    background-color:black;
+    text-align: center;
+}
+.labels{
+    height: 100%;
+    width: 80%;
+    background-color:black;
+    text-align:center;
+    word-spacing: 100px;
+    font-size: 30px;
+}
+.labels a {
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 3px;
+    height: 40px;
+    color: white;
+  }
+.labels a:hover{
+    /* background-color: orange; */
+    color: white;
+    cursor: pointer;
+    /* background-color: rgb(227, 128, 15); */
+    
+}
+.top{
+    height: 50%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+}
+.down{
+    height: 50%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.right{
+    height: 100%;
+    width:25%;
+    /* background-color: aquamarine; */
+    padding-left: 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+.content{
+    height: 100%;
+    width: 75%;
+    font-family: 'poppins';
+    text-align: justify;
+    padding: 30px 30px 10px ;
+}
+.f5,.th{
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+}
+.map{
+    height: 300px;
+    width: 300px;
+    border-radius: 6px;
+}
+@media only screen and (max-width:700px){
+    [class*="col-1"]{
+    width:100%;
+    height: auto;
+    display:flex;
+    flex-direction:column;
+    }
+    [class*="col"]{
+        width:100%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    [class*="col-2"]{
+        height: 50%;
+        width: 50%;
+        padding-left: 10px;
+    }
+    .navbar .labels {
+        display: flex;
+        flex-direction: column;
+    }
+}
