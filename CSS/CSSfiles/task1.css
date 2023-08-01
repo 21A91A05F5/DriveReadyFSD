@@ -1,0 +1,10 @@
+body{
+    padding: 50px;
+}
+div{
+    outline:10px dotted red;
+    background-color: pink;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+}

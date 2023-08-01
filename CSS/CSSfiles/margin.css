@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+h2{
+    margin: 30px;
+    background-color: pink;
+}
+p{
+    margin: 50px;
+    background-color: palevioletred;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.left{
+    height: 60%;
+    width: 30%;
+    background-color: pink;
+}
+.mid{
+    height: 60%;
+    width: 30%;
+    background-color: brown;
+    margin-left: 50px;
+}
+.right{
+    height: 60%;
+    width: 30%;
+    background-color: aquamarine;
+    margin-left: 50px;
+}
